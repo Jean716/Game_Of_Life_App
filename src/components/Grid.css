@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(32, 20px);
+  grid-template-rows: repeat(24, 20px);
+  gap: 1px;
+  margin-top: -100px; 
+}
+
+.row {
+  display: contents;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+}
+
+.alive {
+  background-color: Green; /* 为活细胞设置背景色为黑色 */
+}
